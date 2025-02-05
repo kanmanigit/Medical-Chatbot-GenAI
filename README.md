@@ -20,7 +20,11 @@ conda activate medibot
 ```
 Now,
   open up localhost:
+  
+```bash
 Techstack Used:
+```
+
 ```bash
 Python
 LangChain
