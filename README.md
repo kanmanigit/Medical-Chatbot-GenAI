@@ -2,9 +2,13 @@
 ```bash
 conda create -n medibot python=3.10 -y
 ```
-  conda activate medibot
+```bash
+conda activate medibot
+```
 ###### STEP 02- install the requirements
+```bash
   pip install -r requirements.txt
+```
 Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
   PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
